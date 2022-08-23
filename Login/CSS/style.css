@@ -1,0 +1,169 @@
+/* Start Global Rules */
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* Larg */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+@media (max-width: 992px) {
+    section#overlay .side-content {
+        display: none;
+    }
+}
+body {
+    background-color: #c6c6c691;
+    font-family: 'Montserrat', sans-serif;
+}
+section#overlay {
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#overlay aside {
+    box-shadow: 5px 10px 10px #0000006b;
+    background-color: #fff;
+    width: 400px;
+    height: 480px;
+    padding: 20px;
+}
+section#overlay aside .first-sn {
+    margin-bottom: 30px;
+    padding: 8px 12px;
+    background-color: #1aa6b7;
+    border-radius: 50px;
+    width: fit-content;
+    color: white;
+    font-size: 14px;
+}
+section#overlay aside h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+section#overlay aside .contact .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+section#overlay aside .contact .social a {
+    color: black;
+}
+section#overlay aside .contact .social i {
+    padding: 9px 13px;
+    margin: 0px 12px;
+    font-size: 19px;
+    border: 1px solid #1aa6b74d;
+    border-radius: 50%;
+}
+section#overlay aside .contact .social .google-efc i {
+    padding: 9px;
+}
+section#overlay aside .details {
+    text-align: center;
+}
+section#overlay aside .first {
+    width: 270px;
+    height: 33px;
+    padding: 5px 10px;
+    background-color: #80808024;
+    border: none;
+    outline: none;
+    margin: 30px 0 0;
+}
+section#overlay aside .second {
+    width: 270px;
+    height: 33px;
+    padding: 5px 10px;
+    background-color: #80808024;
+    border: none;
+    outline: none;
+}
+section#overlay aside .parag-forget {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+section#overlay aside .btn {
+    width: 180px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #1aa6b7;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 20px;
+    cursor: pointer;
+}
+section#overlay .side-content {
+    position: relative;
+    width: 400px;
+    height: 480px;
+    padding: 20px;
+    background-color: #1aa6b7;
+    color: #fff;
+    box-shadow: 5px 10px 10px #0000006b;
+}
+section#overlay .side-content .info {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+section#overlay .side-content .info h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+section#overlay .side-content .info p {
+    font-size: 11px;
+    font-weight: 500;
+}
+section#overlay .side-content .info .side-btn {
+    margin-top: 10px;
+    width: 180px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: #1aa6b7;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
